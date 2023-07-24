@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color:white;
+        }
+        .perent{
+            display: grid;
+            grid-template-columns: repeat minmax(1,1fr);
+            grid-auto-rows: minmax(100px,auto);
+            gap:0px
+        }
+        .fruitff{
+            grid-column:1/2;
+            grid-row: 1;
+        }
+        .strawberry{
+            grid-column:2/3;
+            grid-row:1;
+        }
+        .avokardo{
+            grid-column:3/4;
+            grid-row:3; 
+        }
+        .health{
+            grid-columnL:1/2;
+            grid-row: 3;
+         }
+         .orange1{
+            grid-column:2/3 ;
+            grid-row: 3;
+         }
+         .pineapple{
+            grid-column:3/4;
+            grid-row:1/3;
+         }
+         .mixfruit{
+            grid-column:2/3;
+            grid-row:2;
+         }
+         img{
+            height: 100%;
+            width: 100%;
+         }
+    </style>
+</head>
+<body>
+    <div class="perent">
+        <div class="fruitff">
+            <img src="../image/fruitff.jpeg">
+        </div>
+        <div class="strawberry">
+            <img src="../image/strawberry.jpeg">
+        </div>
+        <div class="avokardo">
+            <img src="../image/avokado.jpeg">
+        </div>
+        <div class="health">
+            <img src="../image/health.jpeg">
+        </div>
+        <div class="orange1">
+            <img src="../image/0range1.jpeg">
+        </div>
+        <div class="pineapple">
+            <img src="../image/pineapple.jpeg">
+        </div>
+        <div class="mixfruit">
+            <img src="../image/mix fruits.jpeg">
+        </div>
+     </div>
+</body>
+</html>
